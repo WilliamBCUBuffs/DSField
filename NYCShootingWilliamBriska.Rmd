@@ -2,8 +2,9 @@
 title: "NYC Shooting Incident Analysis"
 author: "William Briska"
 date: "2024-10-11"
-output: 
-pdf_document: default
+output:
+  pdf_document: default
+  html_document: default
 ---
 ```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
